@@ -9,6 +9,13 @@ mkdir -p ~/.vim/syntax
 cp ggo.vim ~/.vim/syntax
 ```
 
+in ~/.vimrc:
+
+```vimscript
+filetype plugin on
+autocmd BufRead,BufNewFile *.ggo set filetype=ggo
+```
+
 # Highlighting
 
 ```vimscript
