@@ -19,9 +19,7 @@ autocmd BufRead,BufNewFile *.ggo set filetype=ggo
 # Highlighting
 
 ```vimscript
-" vim syntax file for gengetopt .ggo files
-" language: gengetopt configuration
-" last change: 2026-04-22
+" syntax highlighting for gengetops .ggo files
 
 if exists("b:current_syntax")
   finish
