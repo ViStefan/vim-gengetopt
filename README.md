@@ -9,7 +9,7 @@ mkdir -p ~/.vim/syntax
 cp ggo.vim ~/.vim/syntax
 ```
 
-in ~/.vimrc:
+in `~/.vimrc`:
 
 ```vimscript
 filetype plugin on
